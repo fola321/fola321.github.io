@@ -36,6 +36,22 @@ footer {
     padding: 10px 0;
 }
 
+footer.collapsed {
+    display: none; /* Hide the footer initially */
+}
+
+footer.expanded {
+    display: block; /* Show the footer when expanded */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
 .footnotes {
     font-size: 0.8em;
 }
