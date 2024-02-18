@@ -14,11 +14,13 @@ body {
 header h1 {
     text-align: center;
     margin: 21px 0;
+    font-size:3vw;
 }
 
 .essay-body, .bibliography {
     margin-bottom: 21px;
-    line-height: 2.5;
+    line-height: 3;
+    font-size:1.2vw;
 }
 
 .bibliography h2, .bibliography ul {
