@@ -1,4 +1,58 @@
 body {
-text-align: center;
-margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px; /* Space for footer */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header h1 {
+    text-align: center;
+    margin: 21px 0;
+}
+
+.essay-body, .bibliography {
+    margin-bottom: 21px;
+}
+
+.bibliography h2, .bibliography ul {
+    margin-left: 21px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footnotes {
+    font-size: 0.8em;
+}
+
+.footnotes h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.footnotes ol {
+    padding-left: 20px;
+}
+
+.footnotes li {
+    margin-bottom: 10px;
+}
+
+.footnotes a {
+    text-decoration: none; /* Removes underline from return link for a cleaner look */
 }
