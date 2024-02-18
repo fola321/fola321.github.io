@@ -18,22 +18,11 @@ header h1 {
 
 .essay-body, .bibliography {
     margin-bottom: 21px;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .bibliography h2, .bibliography ul {
-    margin-left: 21px;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f2f2f2;
-    color: #333;
-    text-align: center;
-    padding: 10px 0;
+    margin-left: 20px;
 }
 
 .footnotes {
